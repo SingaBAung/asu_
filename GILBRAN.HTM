@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+</style>
+
+<style>
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 1000px;
+  height: 100px;
+    }
+
+    #player {
+        width: 10%;
+    }
+</style>
+
+<body><center>
+    <h2>Contoh IFrame untuk Bu Nungki Portofolio Table.</h2> 
+    <br>
+    <table>
+        <script type="text/javascript">
+            function changeIframe(change) {
+             document.getElementById('webpage').src = change;
+            }
+        </script>
+    
+        <tr>
+            <td colspan="2"> <img src="https://upload.wikimedia.org/wikipedia/id/5/52/Call_of_Duty_Modern_Warfare_2_%282009%29_cover.png" width="32" height="32"> <b style="font-size: large;">Portofolio</b>  </td>
+        </tr>
+        <tr>
+            <td style="background-color: red;"><button style="background-color: red; height:90px; width:230px" onclick="changeIframe('HTML Latihan 1.htm')">Latihan 1</button></td> <!-- GANTI https://example.com menjadi link untuk tombol LATIHAN 1 -->
+            <td rowspan="3"><iframe src="Akan dihapus.htm" height="320px" width="560px" id="webpage"></iframe> </td>
+             
+        </tr>
+        <tr>
+            <td style="background-color: green;"><button style="background-color: green; height:90px; width:230px" onclick="changeIframe('HTML Latihan 2.htm')">Latihan 2</button></td> <!-- GANTI https://answergarden.ch menjadi link untuk tombol LATIHAN 2 -->
+        </tr>
+        <tr>
+            <td style="background-color: blue;"><button style="background-color: blue; height:90px; width:230px" onclick="changeIframe('https://www.example.com')">Latihan 3 (URL)</button></td> <!-- GANTI https://www.livebinders.com menjadi link untuk tombol LATIHAN 3 -->
+        </tr>
+        <tr>
+            <td colspan="2">© MILIK gilbran 2023</td>
+        </tr>
+
+    </table>
+</center></body>
+
+
+</html>
